@@ -49,7 +49,7 @@ table {
 /* End of CSS reset and beginning of styling */
 
 .layer1 {
-  background-color: #D7BDE2;
+  background-color: #F6DDCC;
 }
 .layer2 {
   width: 63vw;
@@ -62,7 +62,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
     color: white;
-    background-color: #57067A;
+    background-color:#34495E;
     padding:2%;
     width: 50%;
     height: 5%;
@@ -92,7 +92,7 @@ header {
 }
 
 .nav a {
-  font-size: x-large;
+  font-size: large;
 
 }
 
@@ -107,9 +107,10 @@ section {
 #headshot {
     height: 400px;
     width: 350px;
-    border: 3px solid #57067A;
+    border: 3px solid #34495E;
     border-radius: 50px;
     margin-top: 10%;
+    margin-left: 5%;
 
 }
 
@@ -144,11 +145,12 @@ h2 {
 
 footer {
   margin-top: 400px;
-  background-color: #410765;
+  background-color: #1C2833;
   padding: 3%;
 }
 
 footer div {
   text-align: center;
+  color: white;
 }
 
