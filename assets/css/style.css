@@ -51,7 +51,6 @@ table {
 /* Basic format of each page */
 
 .layer1 {
-  background: url("assets/images/portfoliobackground.jpg")
   width: 100vw;
 }
 .layer2 {
@@ -59,7 +58,7 @@ table {
 }
 
 body {
-  
+  background: url("../images/Importance-of-Background-Design-pic.jpg");
 }
 header {
   border-color: #cccccc;
@@ -69,8 +68,8 @@ header {
 .name-logo {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 200%;
-  color: #FAE004;
-  background-color:#34495E;
+  color: white;
+  background-color: #1C2833;
   padding:2%;
   width: 23%;
   height: 5%;
@@ -109,11 +108,11 @@ h2 {
   margin: 3%;
   text-align: center;
   margin-top: 10%;
-  margin-right: 10%;
+  margin-right: 0%;
 }
 
 footer {
-  margin-top: 400px;
+  margin-top: 309px;
   background-color: #1C2833;
   padding: 3%;
   width: 100vw;
@@ -166,6 +165,7 @@ section {
     display: inline;
     float: right;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
     left: -30%;
     bottom: -10%;  
     margin-left: 10%;
@@ -199,7 +199,12 @@ section {
 
 .main-box h2 {
   margin-right: 15vw;
-  margin-left: 15vw;
+  margin-left: 0vw;
+  border-bottom: 3px solid grey;
+  width: 76vw;
+  height: 10vh;
+  margin-top: 7vh;
+  margin-bottom: 9vh;
 }
 #name, #email {
   width: 50vw;
@@ -218,5 +223,60 @@ section {
   margin-top: 5vh;
 }
 
-* {border: 1px solid black; }
+/* End of "Contact" page specifics and beginning of "Portfolio" page specifics */
 
+.row {
+  width: 50vw;
+  margin: 8px -16px;
+  width: 73vw;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.p-content1, .p-content2, 
+.p-content3 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  padding-bottom: 3vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 110%;
+  font-weight: bold;
+  color: black;
+  width: 20vw;
+  height: 20vh;
+}
+.row a {
+  text-decoration: none;
+}
+
+.p-content1 {
+  margin-left: 3vw;
+  
+}
+#catandmouse {
+  width: 20vw;
+  height: 20vh;
+}
+
+.p-content2 {
+  margin-left: 11vw;
+}
+#malumapic {
+  width: 18vw;
+  height: 20vh;
+}
+.p-content3 {
+  margin-left: 18vw;
+}
+#changingbox {
+  width: 18vw;
+  height: 20vh;
+}
